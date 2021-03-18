@@ -1,0 +1,171 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-decoration: none;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100vw;
+  height: 70px;
+}
+
+.header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-left .header-left-text {
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.header-left h1 {
+  font-weight: bold;
+  color: #575656;
+}
+
+.header-left span {
+  font-size: 10px;
+  color: #575656;
+}
+
+.header-left a {
+  padding-left: 20px;
+}
+
+.header-left .header-icon {
+  width: 80px;
+  height: 80px;
+  color: #e46060;
+}
+
+.header-right {
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.header-right a {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #e46060;
+  color: #575656;
+  margin-left: 5px;
+}
+
+.header-right .button-registration {
+  background-color: white;
+  padding: 11px;
+  border: none;
+  background-color: #e46060;
+  color: #fff;
+}
+
+.nav {
+  background-color: #e46060;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 23px;
+  padding-left: 25px;
+}
+
+.nav .nav-buttons a {
+  padding-right: 20px;
+  color: #fff;
+}
+
+.nav .nav-languages {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.nav .nav-languages a {
+  color: #fff;
+  padding-right: 5px;
+}
+
+.cover-image {
+  width: 100vw;
+  height: 300px;
+  background-color: chocolate;
+  background-image: url("https://images.unsplash.com/photo-1605034949929-6af5f19593b3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
